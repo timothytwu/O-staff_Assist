@@ -1,0 +1,21 @@
+---FOR DEPARTMMENT ENDPOINT---
+Unsorted array, each element a course relationship
+
+You can tell what kind of articulation each is by referencing item.type.
+    > Item types:
+        Course: 1 course at UCSB to 1 course at CC
+        Series: Multiple courses at UCSB to any number of courses at CC
+        CourseGroup: 1 course at UCSB to 2 or more courses at CC
+
+Accessing UCSB Course Info
+Course and CourseGroup: UCSB course info is listed under item.course
+Series: If mapped to multiple courses at UCSB, UCSB course info on all courses is in item.series object.
+    > For this, it's easiest to use item.series.name to describe the series it maps to.
+
+Note difference between CourseGroup made up of courses lmao
+    > Here's a good rule of thumb for handling these:
+        data.forEach(agreement => agreement.sendingArticulation.items.forEach(courseGroup => courseGroup.items.forEach(course => console.log(course))));
+
+
+SendingArticulaton is always the course at the cc
+Course/Series is always the course at UCSB
