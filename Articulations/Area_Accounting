@@ -1,0 +1,161 @@
+[
+    {
+        "attributes": [],
+        "course": {
+            "begin": "F2001",
+            "courseIdentifierParentId": 354436,
+            "courseNumber": "3A",
+            "courseTitle": "Financial Accounting",
+            "department": "Economics",
+            "departmentParentId": 4325,
+            "end": "",
+            "maxUnits": 4.0,
+            "minUnits": 4.0,
+            "pathways": null,
+            "prefix": "ECON",
+            "prefixDescription": "Economics",
+            "prefixParentId": 1306
+        },
+        "courseAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+            "attributes": [],
+            "courseGroupConjunctions": [],
+            "deniedCourses": [],
+            "items": [
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "F1999",
+                            "courseIdentifierParentId": 247532,
+                            "courseNumber": "1A",
+                            "courseTitle": "Financial Accounting I",
+                            "department": "Accounting",
+                            "departmentParentId": 92,
+                            "end": "",
+                            "maxUnits": 5.0,
+                            "minUnits": 5.0,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "ACTG",
+                            "prefixDescription": "Accounting",
+                            "prefixParentId": 5730,
+                            "publishedCourseIdentifierYearTermId": null,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 0,
+                    "type": "CourseGroup"
+                }
+            ],
+            "noArticulationReason": null,
+            "type": "SendingArticulation"
+        },
+        "templateOverrides": [],
+        "type": "Course",
+        "visibleCrossListedCourses": []
+    },
+    {
+        "attributes": [],
+        "course": {
+            "begin": "F2001",
+            "courseIdentifierParentId": 286657,
+            "courseNumber": "3B",
+            "courseTitle": "Financial Accounting",
+            "department": "Economics",
+            "departmentParentId": 4325,
+            "end": "",
+            "maxUnits": 4.0,
+            "minUnits": 4.0,
+            "pathways": null,
+            "prefix": "ECON",
+            "prefixDescription": "Economics",
+            "prefixParentId": 1306
+        },
+        "courseAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+            "attributes": [],
+            "courseGroupConjunctions": [
+                {
+                    "groupConjunction": "Or",
+                    "id": "e42d39e9-b299-4ca4-8085-1072e7927643",
+                    "sendingArticulationId": "fc45c6b5-4dd0-4982-a0b4-cea854b3beab",
+                    "sendingCourseGroupBeginPosition": 0,
+                    "sendingCourseGroupEndPosition": 1
+                }
+            ],
+            "deniedCourses": [],
+            "items": [
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "Su2017",
+                            "courseIdentifierParentId": 360120,
+                            "courseNumber": "1BH",
+                            "courseTitle": "Honors Financial Accounting II",
+                            "department": "Accounting",
+                            "departmentParentId": 92,
+                            "end": "",
+                            "maxUnits": 5.0,
+                            "minUnits": 5.0,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "ACTG",
+                            "prefixDescription": "Accounting",
+                            "prefixParentId": 5730,
+                            "publishedCourseIdentifierYearTermId": null,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 1,
+                    "type": "CourseGroup"
+                },
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "W2000",
+                            "courseIdentifierParentId": 284503,
+                            "courseNumber": "1B",
+                            "courseTitle": "Financial Accounting II",
+                            "department": "Accounting",
+                            "departmentParentId": 92,
+                            "end": "",
+                            "maxUnits": 5.0,
+                            "minUnits": 5.0,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "ACTG",
+                            "prefixDescription": "Accounting",
+                            "prefixParentId": 5730,
+                            "publishedCourseIdentifierYearTermId": null,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 0,
+                    "type": "CourseGroup"
+                }
+            ],
+            "noArticulationReason": null,
+            "type": "SendingArticulation"
+        },
+        "templateOverrides": [],
+        "type": "Course",
+        "visibleCrossListedCourses": []
+    }
+]
