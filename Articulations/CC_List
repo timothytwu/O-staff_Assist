@@ -1,0 +1,2786 @@
+[
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "EVERGRN ",
+        "id": 2,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Evergreen Valley College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "LACC    ",
+        "id": 3,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Los Angeles City College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MARIN   ",
+        "id": 4,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "College of Marin"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MATEO   ",
+        "id": 5,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "College of San Mateo"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SEQUOIAS",
+        "id": 6,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "College of the Sequoias"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "BUTTE   ",
+        "id": 8,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Butte College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2021,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CERRO   ",
+        "id": 9,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Cerro Coso Community College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "COLUMBIA",
+        "id": 10,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Columbia College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MERRITT ",
+        "id": 13,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Merritt College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2017,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "RSC",
+        "id": 14,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Rancho Santiago College"
+            },
+            {
+                "fromYear": 1997,
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Santa Ana College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2018,
+                "termType": 0
+            },
+            {
+                "fromYear": 1997,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CUESTA  ",
+        "id": 16,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Cuesta College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2022,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MERCED  ",
+        "id": 17,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Merced College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "POSITAS ",
+        "id": 18,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Las Positas College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "VVCC    ",
+        "id": 19,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Victor Valley College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "BARSTOW ",
+        "id": 20,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Barstow Community College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "LATT    ",
+        "id": 25,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Los Angeles Trade Technical College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "ARC     ",
+        "id": 27,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "American River College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CONTRA  ",
+        "id": 28,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Contra Costa College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "DESERT  ",
+        "id": 30,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "College of the Desert"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "LAHC    ",
+        "id": 31,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Los Angeles Harbor College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MISSION ",
+        "id": 32,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Mission College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SFCITY  ",
+        "id": 33,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "City College of San Francisco"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2019,
+                "termType": 0
+            },
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "COMPTON ",
+        "endId": 57,
+        "id": 34,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Compton Community College"
+            },
+            {
+                "alternateInstitutionId": 103,
+                "fromYear": 2006,
+                "hasDepartments": true,
+                "hideInList": true,
+                "name": "El Camino College"
+            },
+            {
+                "alternateInstitutionId": 153,
+                "fromYear": 2019,
+                "hasDepartments": true,
+                "hideInList": true,
+                "name": "Compton College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "FRESNO  ",
+        "id": 35,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Fresno City College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "KRC",
+        "id": 36,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Kings River College"
+            },
+            {
+                "fromYear": 1998,
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Reedley College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2023,
+                "termType": 0
+            },
+            {
+                "fromYear": 1998,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SHASTA  ",
+        "id": 38,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Shasta College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "TAHOE   ",
+        "id": 40,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Lake Tahoe Community College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 1,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 1
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CABRILLO",
+        "id": 41,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Cabrillo College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "GLENDALE",
+        "id": 43,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Glendale Community College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "LAVC    ",
+        "id": 44,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Los Angeles Valley College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MIRAMAR ",
+        "id": 45,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "San Diego Miramar College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2024,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "LAMC    ",
+        "id": 47,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Los Angeles Mission College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "OHLONE  ",
+        "id": 48,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Ohlone College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "PASADENA",
+        "id": 49,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Pasadena City College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "FOOTHILL",
+        "id": 51,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Foothill College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 1,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 1
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MODESTO ",
+        "id": 52,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Modesto Junior College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MTSJC   ",
+        "id": 53,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Mt. San Jacinto College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SDCC    ",
+        "id": 54,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "San Diego City College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2024,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "GWC     ",
+        "id": 55,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Golden West College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "PALOMAR ",
+        "id": 56,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Palomar College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2018,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SRC     ",
+        "id": 57,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Santa Rosa Junior College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "VISTA",
+        "id": 58,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Vista Community College"
+            },
+            {
+                "fromYear": 2006,
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Berkeley City College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2017,
+                "termType": 0
+            },
+            {
+                "fromYear": 2006,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MEDANOS ",
+        "id": 61,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Los Medanos College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MTSAC   ",
+        "id": 62,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Mount San Antonio College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "PALOVRDE",
+        "id": 63,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Palo Verde College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "RIOHONDO",
+        "id": 64,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Rio Hondo College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SADDLBK ",
+        "id": 65,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Saddleback College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SANTIAGO",
+        "id": 66,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Santiago Canyon College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "WHC     ",
+        "id": 67,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "West Hills College Coalinga"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CANADA  ",
+        "id": 68,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Canada College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CHAFFEY ",
+        "id": 69,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Chaffey College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CRAFTON ",
+        "id": 70,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Crafton Hills College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2022,
+                "termType": 0
+            },
+            {
+                "fromYear": 2021,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CYPRESS ",
+        "id": 71,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Cypress College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "GAVILAN ",
+        "id": 72,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Gavilan College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "NAPA    ",
+        "id": 73,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Napa Valley College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "OCC     ",
+        "id": 74,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Orange Coast College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "LANEY   ",
+        "id": 77,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Laney College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2017,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "RCC     ",
+        "id": 78,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Riverside City College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "WVC     ",
+        "id": 80,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "West Valley College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "LASSEN  ",
+        "id": 82,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Lassen Community College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "REDWOODS",
+        "id": 83,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "College of the Redwoods"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "BAKERFLD",
+        "id": 84,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Bakersfield College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "LAPC    ",
+        "id": 86,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Los Angeles Pierce College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "OXNARD  ",
+        "id": 87,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Oxnard College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "YUBA    ",
+        "id": 90,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Yuba College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "LAWC    ",
+        "id": 91,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "West Los Angeles College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SBCC    ",
+        "id": 92,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Santa Barbara City College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SIERRA  ",
+        "id": 93,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Sierra College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SOLANO  ",
+        "id": 94,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Solano Community College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "VENTURA ",
+        "id": 95,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Ventura College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CHABOT  ",
+        "id": 96,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Chabot College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2022,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CITRUS  ",
+        "id": 97,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Citrus College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CUYAMACA",
+        "id": 99,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Cuyamaca College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MENDOCIN",
+        "id": 100,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Mendocino College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MESA    ",
+        "id": 101,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "San Diego Mesa College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2024,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SISKIYOU",
+        "id": 102,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "College of the Siskiyous"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CAMINO  ",
+        "id": 103,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "El Camino College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CERRITOS",
+        "id": 104,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Cerritos College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "COASTLIN",
+        "id": 105,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Coastline Community College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "GMCC    ",
+        "id": 106,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Grossmont College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "IMPERIAL",
+        "id": 107,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Imperial Valley College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MIRACSTA",
+        "id": 108,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "MiraCosta College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SJDELTA ",
+        "id": 109,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "San Joaquin Delta College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2017,
+                "termType": 0
+            },
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "AHC     ",
+        "id": 110,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Allan Hancock College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "ALAMEDA ",
+        "id": 111,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "College of Alameda"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2017,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 49,
+        "category": 2,
+        "code": "COPPER  ",
+        "id": 112,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Copper Mountain College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1998,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "DAC     ",
+        "id": 113,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "De Anza College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 1,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 1
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "DIABLO  ",
+        "id": 114,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Diablo Valley College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "LAEC    ",
+        "id": 118,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "East Los Angeles College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "TAFT    ",
+        "id": 119,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Taft College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "AVC     ",
+        "id": 121,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Antelope Valley College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "FEATHER ",
+        "id": 122,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Feather River College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "HARTNELL",
+        "id": 123,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Hartnell College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "IRVINE  ",
+        "id": 124,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Irvine Valley College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2019,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "PORTER  ",
+        "id": 125,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Porterville College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SCC     ",
+        "id": 126,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Sacramento City College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SKYLINE ",
+        "id": 127,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Skyline College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "LASC    ",
+        "id": 130,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Los Angeles Southwest College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SBVC    ",
+        "id": 131,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "San Bernardino Valley College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2021,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MONTEREY",
+        "id": 133,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Monterey Peninsula College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "FULLRTON",
+        "id": 134,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Fullerton College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "LBCC    ",
+        "id": 135,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Long Beach City College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SJCC    ",
+        "id": 136,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "San Jose City College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SMCC    ",
+        "id": 137,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Santa Monica College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2020,
+                "termType": 0
+            },
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "SWSTRN  ",
+        "id": 138,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Southwestern College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "MOORPARK",
+        "id": 139,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Moorpark College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CANYONS ",
+        "id": 140,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "College of the Canyons"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 31,
+        "category": 2,
+        "code": "CRC     ",
+        "id": 142,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Cosumnes River College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 1980,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 54,
+        "category": 2,
+        "code": "FOLSOM  ",
+        "id": 145,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Folsom Lake College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2003,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 57,
+        "category": 2,
+        "code": "WHCL    ",
+        "id": 146,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "West Hills College Lemoore"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2006,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 59,
+        "category": 2,
+        "code": "WCC     ",
+        "id": 147,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Woodland Community College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 2008,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 60,
+        "category": 2,
+        "code": "NORCO   ",
+        "id": 148,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Norco College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 2009,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 60,
+        "category": 2,
+        "code": "MVC     ",
+        "id": 149,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Moreno Valley College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2016,
+                "termType": 0
+            },
+            {
+                "fromYear": 2009,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 66,
+        "category": 2,
+        "code": "CLOVIS  ",
+        "id": 150,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Clovis Community College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2022,
+                "termType": 0
+            },
+            {
+                "fromYear": 2015,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 1,
+        "category": 2,
+        "code": "COMPTON",
+        "id": 153,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "alternateInstitutionId": 153,
+                "fromYear": 2019,
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Compton College"
+            },
+            {
+                "alternateInstitutionId": 34,
+                "hasDepartments": true,
+                "hideInList": true,
+                "name": "Compton Community College"
+            },
+            {
+                "alternateInstitutionId": 103,
+                "fromYear": 2006,
+                "hasDepartments": true,
+                "hideInList": true,
+                "name": "El Camino College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2019,
+                "termType": 0
+            },
+            {
+                "fromYear": 1950,
+                "termType": 0
+            }
+        ]
+    },
+    {
+        "beginId": 71,
+        "category": 2,
+        "code": "MCC",
+        "id": 200,
+        "isCommunityCollege": true,
+        "names": [
+            {
+                "hasDepartments": true,
+                "hideInList": false,
+                "name": "Madera Community College"
+            }
+        ],
+        "prefers2016LegacyReport": false,
+        "termType": 0,
+        "termTypeAcademicYears": [
+            {
+                "fromYear": 2020,
+                "termType": 0
+            }
+        ]
+    }
+]
