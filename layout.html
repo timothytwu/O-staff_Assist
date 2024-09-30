@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* #collegeSearchBar {
+
+            }
+
+            .dropdownsearch {
+
+            }
+
+            .dropdownmenu {
+
+            } */
+        </style>
+        <script>
+            const UCSB = '128';
+
+            const corsFetch = url => fetch(`https://corsproxy.io/?${encodeURIComponent(url)}`);
+
+            const geFinder = (cc, dept, code) => new Promise(async (res, rej) => {
+                let { reports } = await corsFetch(`https://assist.org/api/agreements?receivingInstitutionId=${UCSB}&sendingInstitutionId=${cc}&academicYearId=74&categoryCode=breadth`).then(res => res.json());
+                let { key } = reports.find(e => e.label == "College of Letters and Science General Education Requirements");
+                let { result } = await corsFetch(`https://assist.org/api/articulation/Agreements?Key=${key}`).then(res => res.json());
+                let GEs = JSON.parse(result.articulations);
+                
+                res(
+                    GEs.filter(area => 
+                        area.articulation.sendingArticulation.items.find(e => 
+                            `${e.items[0].prefix} ${e.items[0].department}` == dept && e.items[0].courseNumber == code
+                        )
+                    ).map(e => e.articulation.generalEducationArea.code)
+                );
+            });
+
+            const getDepartments = cc => new Promise(async (res, rej) => {
+                corsFetch(`https://assist.org/api/agreements?receivingInstitutionId=${UCSB}&sendingInstitutionId=${cc}&academicYearId=74&categoryCode=prefix`)
+                    .then(res => res.json())
+                    .then(e => res(e.reports.filter(e => e.ownerInstitutionId == cc)))
+                    .catch(rej);
+            });
+
+            const getDepartmentArticulations = (cc, dept) => new Promise(async (res, rej) => {
+                let reports = await getDepartments(cc);
+
+                let deptKey = reports.find(e => e.label == dept)?.key;
+                if(!deptKey) throw new Error("Unable to find entered department at community college");
+
+                let { result } = await corsFetch(`https://assist.org/api/articulation/Agreements?Key=${deptKey}`).then(res => res.json());
+
+                res(JSON.parse(result.articulations));
+            });
+
+            const CourseFinder = (data, code) => [
+                ...data.filter(agreement => 
+                    agreement.sendingArticulation?.items.find(group => 
+                        group.items.find(e => 
+                            code == e.courseNumber
+                        )
+                    )
+                )
+            ];
+
+            const getCourseInfo = (CC, Department, Code) => new Promise(async (res, rej) => {
+                let articulations = await getDepartmentArticulations(CC, Department);
+
+                //fs.writeFileSync('./tests/resultMath.json', JSON.stringify(articulations))
+                
+                /** List of agreements including searched for course */
+                let foundArticulations = CourseFinder(articulations, Code);
+                
+                foundArticulations = foundArticulations.map(agreement => {
+                    let equiv = {
+                        ucsb: '',
+                        cc: agreement.sendingArticulation.items
+                            .map(e1 => 
+                                e1 = e1.items
+                                .map(e2 => `${e2.prefix} ${e2.courseNumber}`)
+                                .sort((a, b) => b-a)
+                                .join(` ${e1.courseConjunction.toLowerCase()} `)
+                            //Just assume they're all ors because conjunction handling is shit and i dont want to deal with it
+                            ).join(agreement.sendingArticulation.courseGroupConjunctions.length > 0
+                                ? ' or ' : ' and '
+                            )
+                    };
+
+                    if(agreement.type == 'Course') equiv.ucsb = `${agreement.course.prefix} ${agreement.course.courseNumber}`;
+                    if(agreement.type == 'Series') equiv.ucsb = agreement.series.name;
+
+                    return equiv;
+                });
+
+                geFinder(CC, Department, Code);
+
+                res({
+                    GEAreas: await geFinder(CC, Department, Code),
+                    foundArticulations
+                })
+            });
+
+        </script>
+        <script>
+            let filteredCollegeData = [];
+            
+            document.addEventListener('DOMContentLoaded', async () => {
+                const collegeData = await fetch('https://corsproxy.io/?https%3A%2F%2Fassist.org%2Fapi%2Finstitutions').then(res => res.json());
+                const ccData = collegeData
+                    .filter(e => e.isCommunityCollege)
+                    .map(college => {return {id: college.id, name: college.names[0].name}; });
+            
+                let college;
+            
+                for(let { name } of ccData) {  
+                    let elem = document.createElement('option');
+                    elem.setAttribute('value', name);
+                    document.getElementById('collegeSearchData').appendChild(elem);
+                }
+
+                document.getElementById('selectCollege').addEventListener('click', async () => {
+                    document.getElementById('collegeDepartmentData').replaceChildren([]);
+                    college = ccData.find(e => e.name == document.getElementById('collegeSearchBar').value);
+                    
+                    const departmentData = await getDepartments(college.id);
+                    for(let { label } of departmentData) {
+                        let elem = document.createElement('option');
+                        elem.setAttribute('value', label);
+                        document.getElementById('collegeDepartmentData').appendChild(elem);
+                    }
+                    
+                    document.getElementById('collegeDepartmentBar').value = "";
+                    document.getElementById('departmentSelectArea').removeAttribute('hidden');
+                    document.getElementById('courseNumSelectArea').setAttribute('hidden', '');
+                    document.getElementById('whereTheResultsGo').setAttribute('hidden', '');
+                });
+
+                document.getElementById('selectDepartment').addEventListener('click', () => {
+                    document.getElementById('courseNumberInput').value = "";
+                    document.getElementById('courseNumSelectArea').removeAttribute('hidden');
+                    document.getElementById('whereTheResultsGo').setAttribute('hidden', '');
+                });
+
+                document.getElementById('selectCourseNumber').addEventListener('click', async () => {
+                    //Clear the last GE Articulation
+                    document.getElementById('t_list').replaceChildren([]);
+
+                    let courseFindResults = await getCourseInfo(
+                        college.id, 
+                        document.getElementById('collegeDepartmentBar').value,
+                        document.getElementById('courseNumberInput').value
+                    );
+
+                    //Basic info
+                    let deptPrefix = document.getElementById('collegeDepartmentBar').value
+                        .split(" ")
+                        .filter(e => e == e.toUpperCase())
+                        .join(" ");
+                    document.getElementById('t_dept').innerText = `${deptPrefix} ${document.getElementById('courseNumberInput').value}`;
+
+                    document.getElementById('t_cName').innerText = college.name;
+
+                    //Handle GEs
+                    let liGE = document.createElement('li');
+                    if(!courseFindResults.GEAreas.length) liGE.innerText = 'No GE Areas';
+                    else liGE.innerText = "UCSB GE Areas: " + courseFindResults.GEAreas.join(", ");
+                    document.getElementById('t_list').appendChild(liGE);
+
+                    //Articulations
+                    for(let result of courseFindResults.foundArticulations) {
+                        //Articulated series
+                        let li = document.createElement('li');
+                        if(result.ucsb.includes(",")) li.innerText = `All of ${result.ucsb} at UCSB are satisfied by completing ${result.cc} at ${college.name}`;
+                        else li.innerText = `${result.ucsb} at UCSB is satisfied by completing ${result.cc.includes('and') ? 'all of ' : ''}${result.cc} at ${college.name}`;
+                        document.getElementById('t_list').appendChild(li);
+                    }
+
+                    document.getElementById('whereTheResultsGo').removeAttribute('hidden');
+                });
+            });
+
+        </script>
+    </head>
+    <body>
+        <div id="collegeSelectArea">
+            <input list="collegeSearchData" id="collegeSearchBar" onfocus="this.value=''">
+            <datalist id="collegeSearchData"></datalist>
+            <button id="selectCollege">Select College</button>
+        </div>
+        <div id="departmentSelectArea" hidden>
+            <input list="collegeDepartmentData" id="collegeDepartmentBar" onfocus="this.value=''">
+            <datalist id="collegeDepartmentData"></datalist>
+            <button id="selectDepartment">Select Department</button>
+        </div>
+        <div id="courseNumSelectArea" hidden>
+            Course Number: <input id="courseNumberInput">
+            <button id="selectCourseNumber">View Articulations</button>
+        </div>
+        <div id="whereTheResultsGo" hidden>
+            <p>
+                <span id="t_dept"></span> at <span id="t_cName"></span>:<br/>
+                <ul id="t_list">
+                </ul>
+            </p>
+        </div>
+    </body>
+</html>
