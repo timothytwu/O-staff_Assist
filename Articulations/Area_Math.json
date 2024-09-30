@@ -1,0 +1,603 @@
+[
+    {
+        "attributes": [],
+        "course": {
+            "begin": "F2001",
+            "courseIdentifierParentId": 287156,
+            "courseNumber": "34A",
+            "courseTitle": "Calculus for Social and Life Sciences",
+            "department": "Mathematics",
+            "departmentParentId": 9054,
+            "end": "",
+            "maxUnits": 4,
+            "minUnits": 4,
+            "pathways": null,
+            "prefix": "MATH",
+            "prefixDescription": "Mathematics",
+            "prefixParentId": 10040
+        },
+        "courseAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+            "attributes": [],
+            "courseGroupConjunctions": [],
+            "deniedCourses": [],
+            "items": [
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "Su2015",
+                            "courseIdentifierParentId": 308082,
+                            "courseNumber": "12",
+                            "courseTitle": "Calculus for Business & Economics",
+                            "department": "Mathematics",
+                            "departmentParentId": 8987,
+                            "end": "",
+                            "maxUnits": 5,
+                            "minUnits": 5,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "MATH",
+                            "prefixDescription": "Mathematics",
+                            "prefixParentId": 9959,
+                            "publishedCourseIdentifierYearTermId": null,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 0,
+                    "type": "CourseGroup"
+                }
+            ],
+            "noArticulationReason": null,
+            "type": "SendingArticulation"
+        },
+        "templateOverrides": [],
+        "type": "Course",
+        "visibleCrossListedCourses": []
+    },
+    {
+        "attributes": [],
+        "course": {
+            "begin": "F2001",
+            "courseIdentifierParentId": 293530,
+            "courseNumber": "34B",
+            "courseTitle": "Calculus for Social and Life Sciences",
+            "department": "Mathematics",
+            "departmentParentId": 9054,
+            "end": "",
+            "maxUnits": 4,
+            "minUnits": 4,
+            "pathways": null,
+            "prefix": "MATH",
+            "prefixDescription": "Mathematics",
+            "prefixParentId": 10040
+        },
+        "courseAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+            "attributes": [],
+            "courseGroupConjunctions": [],
+            "deniedCourses": [],
+            "items": [
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "Su2015",
+                            "courseIdentifierParentId": 308082,
+                            "courseNumber": "12",
+                            "courseTitle": "Calculus for Business & Economics",
+                            "department": "Mathematics",
+                            "departmentParentId": 8987,
+                            "end": "",
+                            "maxUnits": 5,
+                            "minUnits": 5,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "MATH",
+                            "prefixDescription": "Mathematics",
+                            "prefixParentId": 9959,
+                            "publishedCourseIdentifierYearTermId": null,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 0,
+                    "type": "CourseGroup"
+                }
+            ],
+            "noArticulationReason": null,
+            "type": "SendingArticulation"
+        },
+        "templateOverrides": [],
+        "type": "Course",
+        "visibleCrossListedCourses": []
+    },
+    {
+        "attributes": [],
+        "course": {
+            "begin": "F2001",
+            "courseIdentifierParentId": 293540,
+            "courseNumber": "3A",
+            "courseTitle": "Calculus with Applications, First Course",
+            "department": "Mathematics",
+            "departmentParentId": 9054,
+            "end": "",
+            "maxUnits": 4,
+            "minUnits": 4,
+            "pathways": null,
+            "prefix": "MATH",
+            "prefixDescription": "Mathematics",
+            "prefixParentId": 10040
+        },
+        "courseAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+            "attributes": [],
+            "courseGroupConjunctions": [
+                {
+                    "groupConjunction": "Or",
+                    "id": "f51feb06-232e-41c9-b968-f1159b456871",
+                    "sendingArticulationId": "d075992b-059a-4ff5-889f-55a5730708f2",
+                    "sendingCourseGroupBeginPosition": 0,
+                    "sendingCourseGroupEndPosition": 1
+                }
+            ],
+            "deniedCourses": [],
+            "items": [
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "Su2015",
+                            "courseIdentifierParentId": 305211,
+                            "courseNumber": "1AH",
+                            "courseTitle": "Honors Calculus I ",
+                            "department": "Mathematics",
+                            "departmentParentId": 8987,
+                            "end": "",
+                            "maxUnits": 5,
+                            "minUnits": 5,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "MATH",
+                            "prefixDescription": "Mathematics",
+                            "prefixParentId": 9959,
+                            "publishedCourseIdentifierYearTermId": null,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 1,
+                    "type": "CourseGroup"
+                },
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "F1995",
+                            "courseIdentifierParentId": 359157,
+                            "courseNumber": "1A",
+                            "courseTitle": "Calculus",
+                            "department": "Mathematics",
+                            "departmentParentId": 8987,
+                            "end": "",
+                            "maxUnits": 5,
+                            "minUnits": 5,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "MATH",
+                            "prefixDescription": "Mathematics",
+                            "prefixParentId": 9959,
+                            "publishedCourseIdentifierYearTermId": null,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 0,
+                    "type": "CourseGroup"
+                }
+            ],
+            "noArticulationReason": null,
+            "type": "SendingArticulation"
+        },
+        "templateOverrides": [],
+        "type": "Course",
+        "visibleCrossListedCourses": []
+    },
+    {
+        "attributes": [],
+        "course": {
+            "begin": "F2001",
+            "courseIdentifierParentId": 286666,
+            "courseNumber": "3B",
+            "courseTitle": "Calculus with Applications, Second Course",
+            "department": "Mathematics",
+            "departmentParentId": 9054,
+            "end": "",
+            "maxUnits": 4,
+            "minUnits": 4,
+            "pathways": null,
+            "prefix": "MATH",
+            "prefixDescription": "Mathematics",
+            "prefixParentId": 10040
+        },
+        "courseAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+            "attributes": [
+                {
+                    "content": "Effective next fall, this articulation will be revised",
+                    "position": 0
+                }
+            ],
+            "courseGroupConjunctions": [
+                {
+                    "groupConjunction": "Or",
+                    "id": "d07e273a-fe0e-493a-a380-f4b2b550da23",
+                    "sendingArticulationId": "84eb2c1b-3f36-41ba-917c-1159bad87d01",
+                    "sendingCourseGroupBeginPosition": 0,
+                    "sendingCourseGroupEndPosition": 1
+                }
+            ],
+            "deniedCourses": [],
+            "items": [
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "Su2018",
+                            "courseIdentifierParentId": 362986,
+                            "courseNumber": "1BH",
+                            "courseTitle": "Honors Calculus II",
+                            "department": "Mathematics",
+                            "departmentParentId": 8987,
+                            "end": "",
+                            "maxUnits": 5,
+                            "minUnits": 5,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "MATH",
+                            "prefixDescription": "Mathematics",
+                            "prefixParentId": 9959,
+                            "publishedCourseIdentifierYearTermId": 270,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 1,
+                    "type": "CourseGroup"
+                },
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "F1995",
+                            "courseIdentifierParentId": 280536,
+                            "courseNumber": "1B",
+                            "courseTitle": "Calculus",
+                            "department": "Mathematics",
+                            "departmentParentId": 8987,
+                            "end": "",
+                            "maxUnits": 5,
+                            "minUnits": 5,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "MATH",
+                            "prefixDescription": "Mathematics",
+                            "prefixParentId": 9959,
+                            "publishedCourseIdentifierYearTermId": 179,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 0,
+                    "type": "CourseGroup"
+                }
+            ],
+            "noArticulationReason": null,
+            "type": "SendingArticulation"
+        },
+        "templateOverrides": [],
+        "type": "Course",
+        "visibleCrossListedCourses": []
+    },
+    {
+        "attributes": [],
+        "course": {
+            "begin": "F2012",
+            "courseIdentifierParentId": 357461,
+            "courseNumber": "4A",
+            "courseTitle": "Linear Algebra with Applications",
+            "department": "Mathematics",
+            "departmentParentId": 9054,
+            "end": "",
+            "maxUnits": 4,
+            "minUnits": 4,
+            "pathways": null,
+            "prefix": "MATH",
+            "prefixDescription": "Mathematics",
+            "prefixParentId": 10040
+        },
+        "courseAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+            "attributes": [],
+            "courseGroupConjunctions": [],
+            "deniedCourses": [],
+            "items": [
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "F1995",
+                            "courseIdentifierParentId": 302742,
+                            "courseNumber": "2B",
+                            "courseTitle": "Linear Algebra",
+                            "department": "Mathematics",
+                            "departmentParentId": 8987,
+                            "end": "",
+                            "maxUnits": 5,
+                            "minUnits": 5,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "MATH",
+                            "prefixDescription": "Mathematics",
+                            "prefixParentId": 9959,
+                            "publishedCourseIdentifierYearTermId": null,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 0,
+                    "type": "CourseGroup"
+                }
+            ],
+            "noArticulationReason": null,
+            "type": "SendingArticulation"
+        },
+        "templateOverrides": [],
+        "type": "Course",
+        "visibleCrossListedCourses": []
+    },
+    {
+        "attributes": [],
+        "course": {
+            "begin": "F2012",
+            "courseIdentifierParentId": 299006,
+            "courseNumber": "4B",
+            "courseTitle": "Differential Equations",
+            "department": "Mathematics",
+            "departmentParentId": 9054,
+            "end": "",
+            "maxUnits": 4,
+            "minUnits": 4,
+            "pathways": null,
+            "prefix": "MATH",
+            "prefixDescription": "Mathematics",
+            "prefixParentId": 10040
+        },
+        "courseAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+            "attributes": [],
+            "courseGroupConjunctions": [],
+            "deniedCourses": [],
+            "items": [
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "F1995",
+                            "courseIdentifierParentId": 307826,
+                            "courseNumber": "2A",
+                            "courseTitle": "Differential Equations",
+                            "department": "Mathematics",
+                            "departmentParentId": 8987,
+                            "end": "",
+                            "maxUnits": 5,
+                            "minUnits": 5,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "MATH",
+                            "prefixDescription": "Mathematics",
+                            "prefixParentId": 9959,
+                            "publishedCourseIdentifierYearTermId": null,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 0,
+                    "type": "CourseGroup"
+                }
+            ],
+            "noArticulationReason": null,
+            "type": "SendingArticulation"
+        },
+        "templateOverrides": [],
+        "type": "Course",
+        "visibleCrossListedCourses": []
+    },
+    {
+        "attributes": [],
+        "course": {
+            "begin": "F2012",
+            "courseIdentifierParentId": 286411,
+            "courseNumber": "6A",
+            "courseTitle": "Vector Calculus with Applications, First Course",
+            "department": "Mathematics",
+            "departmentParentId": 9054,
+            "end": "",
+            "maxUnits": 4,
+            "minUnits": 4,
+            "pathways": null,
+            "prefix": "MATH",
+            "prefixDescription": "Mathematics",
+            "prefixParentId": 10040
+        },
+        "courseAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+            "attributes": [
+                {
+                    "content": "Effective next fall, this articulation will be revised",
+                    "position": 0
+                }
+            ],
+            "courseGroupConjunctions": [],
+            "deniedCourses": [],
+            "items": [
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "F1995",
+                            "courseIdentifierParentId": 308228,
+                            "courseNumber": "1C",
+                            "courseTitle": "Calculus",
+                            "department": "Mathematics",
+                            "departmentParentId": 8987,
+                            "end": "",
+                            "maxUnits": 5,
+                            "minUnits": 5,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "MATH",
+                            "prefixDescription": "Mathematics",
+                            "prefixParentId": 9959,
+                            "publishedCourseIdentifierYearTermId": 179,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 0,
+                    "type": "CourseGroup"
+                }
+            ],
+            "noArticulationReason": null,
+            "type": "SendingArticulation"
+        },
+        "templateOverrides": [],
+        "type": "Course",
+        "visibleCrossListedCourses": []
+    },
+    {
+        "attributes": [],
+        "course": {
+            "begin": "F2012",
+            "courseIdentifierParentId": 257656,
+            "courseNumber": "6B",
+            "courseTitle": "Vector Calculus with Applications, Second Course",
+            "department": "Mathematics",
+            "departmentParentId": 9054,
+            "end": "",
+            "maxUnits": 4,
+            "minUnits": 4,
+            "pathways": null,
+            "prefix": "MATH",
+            "prefixDescription": "Mathematics",
+            "prefixParentId": 10040
+        },
+        "courseAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+            "attributes": [
+                {
+                    "content": "Effective next fall, this articulation will be revised",
+                    "position": 0
+                }
+            ],
+            "courseGroupConjunctions": [],
+            "deniedCourses": [],
+            "items": [
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "F1995",
+                            "courseIdentifierParentId": 307930,
+                            "courseNumber": "1D",
+                            "courseTitle": "Calculus",
+                            "department": "Mathematics",
+                            "departmentParentId": 8987,
+                            "end": "",
+                            "maxUnits": 5,
+                            "minUnits": 5,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "MATH",
+                            "prefixDescription": "Mathematics",
+                            "prefixParentId": 9959,
+                            "publishedCourseIdentifierYearTermId": 179,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 0,
+                    "type": "CourseGroup"
+                }
+            ],
+            "noArticulationReason": null,
+            "type": "SendingArticulation"
+        },
+        "templateOverrides": [],
+        "type": "Course",
+        "visibleCrossListedCourses": []
+    },
+    {
+        "attributes": null,
+        "course": {
+            "begin": "F2014",
+            "courseIdentifierParentId": 359392,
+            "courseNumber": "8",
+            "courseTitle": "Transition to Higher Mathematics",
+            "department": "Mathematics",
+            "departmentParentId": 9054,
+            "end": "",
+            "maxUnits": 5,
+            "minUnits": 5,
+            "pathways": null,
+            "prefix": "MATH",
+            "prefixDescription": "Mathematics",
+            "prefixParentId": 10040
+        },
+        "courseAttributes": null,
+        "receivingAttributes": null,
+        "sendingArticulation": null,
+        "templateOverrides": null,
+        "type": "Course",
+        "visibleCrossListedCourses": null
+    }
+]
