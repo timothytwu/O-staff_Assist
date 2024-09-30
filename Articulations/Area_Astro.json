@@ -1,0 +1,136 @@
+[
+    {
+        "attributes": [],
+        "course": {
+            "begin": "F2016",
+            "courseIdentifierParentId": 356502,
+            "courseNumber": "1",
+            "courseTitle": "Basic Astronomy",
+            "department": "Physics",
+            "departmentParentId": 10821,
+            "end": "",
+            "maxUnits": 4.0,
+            "minUnits": 4.0,
+            "pathways": null,
+            "prefix": "ASTRO",
+            "prefixDescription": "Astronomy",
+            "prefixParentId": 13702
+        },
+        "courseAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+            "attributes": [],
+            "courseGroupConjunctions": [
+                {
+                    "groupConjunction": "Or",
+                    "id": "c31333d0-5494-413f-a463-ddb03312beac",
+                    "sendingArticulationId": "dd36dec5-c87f-464f-a12b-06547943bd49",
+                    "sendingCourseGroupBeginPosition": 0,
+                    "sendingCourseGroupEndPosition": 1
+                },
+                {
+                    "groupConjunction": "Or",
+                    "id": "5f68d606-99ef-4113-bcc9-69bcfebd817a",
+                    "sendingArticulationId": "dd36dec5-c87f-464f-a12b-06547943bd49",
+                    "sendingCourseGroupBeginPosition": 1,
+                    "sendingCourseGroupEndPosition": 2
+                }
+            ],
+            "deniedCourses": [],
+            "items": [
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "Su2013",
+                            "courseIdentifierParentId": 280850,
+                            "courseNumber": "10B",
+                            "courseTitle": "General Astronomy: Stars, Galaxies, Cosmology",
+                            "department": "Astronomy",
+                            "departmentParentId": 1324,
+                            "end": "",
+                            "maxUnits": 5.0,
+                            "minUnits": 5.0,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "ASTR",
+                            "prefixDescription": "Astronomy",
+                            "prefixParentId": 6963,
+                            "publishedCourseIdentifierYearTermId": null,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 1,
+                    "type": "CourseGroup"
+                },
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "F1999",
+                            "courseIdentifierParentId": 308195,
+                            "courseNumber": "10A",
+                            "courseTitle": "General Astronomy: Solar System",
+                            "department": "Astronomy",
+                            "departmentParentId": 1324,
+                            "end": "",
+                            "maxUnits": 5.0,
+                            "minUnits": 5.0,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "ASTR",
+                            "prefixDescription": "Astronomy",
+                            "prefixParentId": 6963,
+                            "publishedCourseIdentifierYearTermId": null,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 0,
+                    "type": "CourseGroup"
+                },
+                {
+                    "attributes": [],
+                    "courseConjunction": "And",
+                    "items": [
+                        {
+                            "attributes": [],
+                            "begin": "Su2013",
+                            "courseIdentifierParentId": 359775,
+                            "courseNumber": "10BH",
+                            "courseTitle": "Honors General Astronomy: Stars, Galaxies, Cosmology",
+                            "department": "Astronomy",
+                            "departmentParentId": 1324,
+                            "end": "",
+                            "maxUnits": 5.0,
+                            "minUnits": 5.0,
+                            "pathways": null,
+                            "position": 0,
+                            "prefix": "ASTR",
+                            "prefixDescription": "Astronomy",
+                            "prefixParentId": 6963,
+                            "publishedCourseIdentifierYearTermId": null,
+                            "requisites": [],
+                            "type": "Course",
+                            "visibleCrossListedCourses": []
+                        }
+                    ],
+                    "position": 2,
+                    "type": "CourseGroup"
+                }
+            ],
+            "noArticulationReason": null,
+            "type": "SendingArticulation"
+        },
+        "templateOverrides": [],
+        "type": "Course",
+        "visibleCrossListedCourses": []
+    }
+]
